@@ -1,12 +1,15 @@
-import { text, withKnobs } from '@storybook/addon-knobs';
-import { Meta, Story } from '@storybook/react/types-6-0';
+import { Meta, Story } from '@storybook/react';
 import Main from '.';
 
 export default {
-  title: 'Main',
+  title: `Main`,
   component: Main,
-  decorators: [withKnobs]
+  argTypes: {
+    variant: {
+      options: ['primary', 'secondary'],
+      control: { type: 'radio' },
+    },
+  },
 } as Meta
 
-export const Kitbebe: Story = () => 
-<Main title={text(`Title`, `teste`)} description={text(`Description`, `Beni`)} />
+export const Basic: Story = (args) => <Main {...args} />
