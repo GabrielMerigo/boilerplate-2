@@ -47,7 +47,7 @@
     "@types/styled-components": "^5.1.24",
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^2.0.7",
-    "eslint": "8.12.0",
+    "eslint": "8.15.0",
     "eslint-config-next": "12.1.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -56,7 +56,7 @@
     "husky": "^7.0.4",
     "jest": "^27.5.1",
     "jest-styled-components": "^7.0.8",
-    "plop": "^3.0.5",
+    "plop": "^3.1.0",
     "prettier": "2.5.1",
     "typescript": "^4.6.2"
   }
